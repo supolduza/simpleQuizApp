@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well-done!</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form action="">
+                <input type="text" id="username" placeholder="username" />
+                <button 
+                    type="submit"
+                    class="btn"
+                    id="saveScoreBtn"
+                    onclick="saveHighScore(event)"
+                    disabled
+                >Save
+            </button>
+            </form>
+            <a href="../Questions/questions.html" class="btn">Play Again</a>
+            <a href="../index.html" class="btn">Home Page</a>
+        </div>
+    </div>
+    <script src="./end-page.js"></script>
+</body>
+</html>
